@@ -1,4 +1,9 @@
-Multi-View LSTM Implementation.
+Multi-View LSTM (MV-LSTM) Implementation. Please contact Shyam Sundar Rajagopalan (rssundar@gmail.com, Shyam.Rajagopalan@canberra.edu.au) for any queries.
+
+This work is based on our ECCV 2016 paper:
+----------------------------------------------------------------------------------------------------
+Shyam Sundar Rajagopalan, Louis-Philippe Morency, Tadas Baltrusaitis, and Roland Goecke. "Extending long short-term memory for multi-view structured learning." In European Conference on Computer Vision, pp. 338-353. Springer International Publishing, 2016.
+----------------------------------------------------------------------------------------------------
 
 The implementation is done by modifying the gLSTM code [1]. The gLSTM code uses Neuraltalk [2] implementation.  The gLSTM is an image caption generation implementation using the LSTM. This is modified for the classification problem. 
 
@@ -37,17 +42,7 @@ python test.py
 
 
 [1]
-@inproceedings{Jia-iccv15,
-  author    = {Xu Jia and
-               Efstratios Gavves and
-               Basura Fernando and
-               Peter Young and
-               Tinne Tuytelaars},
-  title     = {Guiding Long Short-Memory for Image Caption Generation},
-  booktitle = {{ICCV}}, 
-  year      = {2015}
-}
-
+Xu Jia, Efstratios Gavves, Basura Fernando, Peter Young, Tinne Tuytelaars. "Guiding Long Short-Memory for Image Caption Generation".ICCV 2015.
 * It is built on Andrej Karpathy's Neuraltalk implementation [1].
 
 
