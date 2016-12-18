@@ -8,7 +8,8 @@ Shyam Sundar Rajagopalan, Louis-Philippe Morency, Tadas Baltrusaitis, and Roland
 The implementation is done by modifying the gLSTM code [1]. The gLSTM code uses Neuraltalk [2] implementation.  The gLSTM is an image caption generation implementation using the LSTM. This is modified for the classification problem. 
 
 data/mmdb_book:
-1. The mmdb_book_fps_30_samplesize_25.mat is the dataset containing HOG, HOF and Headpose features. The features are extracted from 59 video sessions of adult-child interactions. Please contact author to obtain the dataset.
+
+1. The mmdb_book_fps_30_samplesize_25.mat is the dataset containing HOG, HOF and Headpose features. The features are extracted from 59 video sessions of adult-child interactions. Please contact author to obtain the dataset. 
 
 2. The json files contain train and test split information. 59 files are present corresponding to 59-fold validation. The original neuraltalk codebase needs the train and test split information is a particular format. Therefore, these json files are created. In future, this needs to be changed for better management.
  
